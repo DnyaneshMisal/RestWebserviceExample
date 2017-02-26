@@ -9,6 +9,9 @@ import org.dnyanesh.site.messanger.model.Message;
 
 public class MessageService {
 
+	
+	
+	/*This is my service class*/
 	private Map<Long, Message> messages = DatabaseClass.getMessages();
 	
 	public MessageService(){
